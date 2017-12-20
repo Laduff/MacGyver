@@ -76,7 +76,7 @@ while continuer:
     
     my_pygame.flip()
         
-    "#END. if hero is on the "F" case : stop music and display message"
+    #END. if hero is on the "F" case : stop music and display message"
     if maze.maze[hero.case_y][hero.case_x] == "F":
         if nb_loot == 4:
             my_pygame.blit(win, (100, 200))
